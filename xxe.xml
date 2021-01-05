@@ -1,0 +1,1 @@
+<!DOCTYPE item [ <!ELEMENT item ANY ><!ENTITY xxe SYSTEM "file:///etc/passwd" >]><items><item name="item1">a</item><item name="item2">a &xxe;</item><item name="item3">c</item><item name="item4">d</item></items>
